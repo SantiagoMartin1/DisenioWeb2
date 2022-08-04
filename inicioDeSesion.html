@@ -7,17 +7,26 @@
 </head>
 <body>
     <form action="#" method="POST">
-        <div class="lgn__box"> 
-            <h1>Login</h1>
-        
-	    	<div class="usu__ssn">
-			    <input type="text" placeholder="Usuario" name="txtUsuario" class="txt__ssn">
+        <div class="lgn__box">
+            <h1>Login</h1> 
+
+            <div class="form">
+                <div class="usu__ssn"> 
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    <input type="text" placeholder="username" name="username"> 
+                </div>
+
+                <div class="usu__pswrd"> 
+                    <i class="fa fa-key" aria-hidden="true"></i> 
+                    <input type="password" placeholder="password" name="password">
+                </div>
+                <div class="lnk__box">
+                    <a href="#"></a>
+                </div>
+
             </div>
-            <div class="usu__pswrd">
-                <input type="password" placeholder="Contraseña" name="txtpswrd" class="txt__rgstr">
-            </div>            
-            <button class="btn__sbmt" type="submit"><b>Iniciar Sesion</b></button>
-            <a href="/DisenioWeb2/registroUsuarios.html" class="rgstr">Registrarse</a>
+            
+            <button type="submit">Login</button> 
         </div>
     </form>
 </body>

@@ -127,3 +127,28 @@
     background: #00000080;
     padding: 20px 50px;
 	}
+	.lgn__box h1{
+		color: white;
+	}
+	.lgn__box .form .usu__ssn input{
+		width: 200px; 
+		border: 0; 
+		border-bottom: 5px solid white; 
+		font-size: 18px; 
+		background: #ffffff00; 
+		color: white; 
+		padding: 5px 10px; 
+	}
+	.lgn__box .form .usu__pswrd input{
+		width: 200px; 
+		border: 0; 
+		border-bottom: 5px solid white; 
+		font-size: 18px; 
+		background: #ffffff00; 
+		color: white; 
+		padding: 5px 10px; 
+	}
+	.lgn__box .form .usu__ssn .i{
+		color: white;
+    	 font-size: 18px;
+	}
